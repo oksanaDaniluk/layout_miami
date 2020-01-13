@@ -43,6 +43,8 @@ h1 {
     .header__phone:hover {
       -webkit-transform: scale(0.5%);
               transform: scale(0.5%); }
+  .header__phone-img {
+    margin-top: 9px; }
   .header__logo {
     position: absolute;
     left: 50%;
@@ -521,7 +523,9 @@ section:not(:last-child) {
   cursor: pointer;
   position: absolute;
   right: 0;
-  z-index: 4; }
+  z-index: 1;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%); }
 
 .sandwich-img::after {
   display: none;
