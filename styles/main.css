@@ -126,7 +126,7 @@ h1 {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 48px;
+  bottom: 20px;
   font-weight: bold;
   font-size: 12px;
   line-height: 16px;
@@ -555,7 +555,8 @@ input.toggler-menu:checked ~ .sandwich-img::after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  scroll-behavior: smooth; }
 
 body,
 input,
